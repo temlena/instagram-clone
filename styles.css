@@ -1,0 +1,135 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins);
+*{
+    font-family:"poppins" sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #f8f8f8;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    border-right: 1px solid rgb(218, 203, 203) ;
+}
+.sidebar-icons{
+    display: flex;
+    width: 196px;
+    height: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#more{
+    margin-top: 3rem;
+}
+.sidebar h1{
+    margin-left:1rem;
+}
+.main-section{
+    width: 100%;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.story-container{
+    width: 468px;
+    height: 110px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.story{
+    width: 3rem;
+    height: 3rem;
+}
+.story img{
+    width: 50px;
+    border-radius: 50%;
+}
+.story h6{
+    text-overflow: ellipsis;
+}
+.post-section{
+    width: 100%;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-name{
+    display: flex;
+    width: 468px;
+    height: 60px;
+    border: 2px solid rgb(233, 240, 241);
+    align-items: center;
+    margin-top: 2rem;
+}
+.user-name img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.8rem;
+    border-radius: 50%;
+}
+.user-name h5{
+    margin-left: 0.8rem;
+}
+.img-content{
+    width: 468px;
+    border: 2px solid rgb(233, 240, 241);
+    height: 587px;
+}
+.img-content img{
+    height: 587px;
+    width: 468px;
+}
+.text{
+    width: 468px;
+    border: 2px solid rgb(233, 240, 241);
+    height: 13rem;
+}
+.text h5{
+    margin-left: 1rem;
+}
+.text small{
+    display: block;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    color: rgb(180, 198, 201);
+}
+.post-icon{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.post-icon:first-child{
+    margin-left: 1rem;
+}
+.fa-bookmark {
+    margin-left: 21rem;
+}
+.post-comment{
+    display: flex;
+    align-items: center;
+    width: 468px;
+    height: 3rem;
+    border-top: 2px solid rgb(233, 240, 241);
+}
+
+.comment{
+    margin-left: 1rem;
+    color: rgb(180, 198, 201);
+}
+.post{
+    margin-left: 17rem;
+}
