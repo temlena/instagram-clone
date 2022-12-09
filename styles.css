@@ -10,6 +10,9 @@
 body{
     background: #f8f8f8;
 }
+main{
+    display: flex;
+}
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -29,11 +32,21 @@ body{
     border-radius: 2rem;
     cursor: pointer;
 }
+.sidebar-icons h3{
+    margin-left: 1em;
+    font-size: 1rem;
+}
+.sidebar-icons i{
+    margin-left: 1rem;
+    font-weight: 900;
+}
 #more{
     margin-top: 3rem;
 }
 .sidebar h1{
-    margin-left:1rem;
+    margin-left:1em;
+    font-size: 1.5rem;
+    
 }
 .main-section{
     width: 100%;
@@ -60,6 +73,11 @@ body{
 }
 .story h6{
     text-overflow: ellipsis;
+}
+.post-container{
+    display: flex;
+    flex-direction: column;
+
 }
 .post-section{
     width: 100%;
@@ -133,3 +151,69 @@ body{
 .post{
     margin-left: 17rem;
 }
+.user-section{
+    width: 350px;
+    height: 15rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: inherit;
+}
+.profile-container img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.8rem;
+    border-radius: 50%;
+}
+.profile-name{
+    margin-left: 0.8rem;
+}
+.switch{
+    margin-left: 6.9rem;
+}
+.suggestion-container{
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: inherit;
+}
+.suggestion-container h5{
+    margin-left: 0.8rem;
+    color: rgb(180, 198, 201);
+}
+.suggestion-container a{
+    margin-left: 7.7rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: inherit;
+}
+.suggestion-photo{
+    width: 2rem;
+    height: 2rem;
+}
+.profile-name{
+    margin-left: 0.8rem;
+}
+.profile-name h5{
+    margin: 0;
+}
+.profile-name a{
+    margin-left: 8rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
